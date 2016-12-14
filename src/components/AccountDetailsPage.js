@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 import DashNav from './DashNav'
+import SideMenu from './SideMenu'
+
 
 class AccountDetailsPage extends Component {
   render() {
