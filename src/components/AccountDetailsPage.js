@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import DashNav from './DashNav'
 import SideMenu from './SideMenu'
-
+import DetailsPageMain from './DetailsPageMain'
 
 class AccountDetailsPage extends Component {
   render() {
@@ -9,6 +9,7 @@ class AccountDetailsPage extends Component {
       <div className="account-details-page">
         <DashNav />
         <SideMenu />
+        <DetailsPageMain />
       </div>
     )
   }
